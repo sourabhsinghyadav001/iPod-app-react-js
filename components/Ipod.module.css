@@ -1,0 +1,38 @@
+.padContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.padContainer {
+  width: 240px;
+  height: 210px;
+  background-color: #ddd;
+  position: relative;
+  z-index: -1;
+}
+.container {
+  border-radius: 25px;
+  width: 240px;
+  overflow: hidden;
+  min-height: 12px;
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.3) inset;
+  position: relative;
+}
+.screenContainer {
+  width: 240px;
+  height: 260px;
+  background-color: #ddd;
+  position: relative;
+  z-index: -1;
+}
+.screen {
+  border: 3px solid black;
+  height: 220px;
+  width: 220px;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
